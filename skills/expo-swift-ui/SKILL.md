@@ -1,7 +1,6 @@
 ---
 name: expo-swift-ui
 description: Build native iOS interfaces with SwiftUI components through Expo SDK 55's @expo/ui package. Use when creating native iOS controls, forms, lists, menus, pickers, toggles, sheets, or any SwiftUI-based UI in an Expo app.
-version: 1.0.0
 license: MIT
 ---
 
