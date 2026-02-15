@@ -22,9 +22,67 @@ Many skills in this repo are open source (Apache 2.0). We've also included the d
 **These skills are provided for demonstration and educational purposes only.** While some of these capabilities may be available in Claude, the implementations and behaviors you receive from Claude may differ from what is shown in these skills. These skills are meant to illustrate patterns and possibilities. Always test skills thoroughly in your own environment before relying on them for critical tasks.
 
 # Skill Sets
-- [./skills](./skills): Skill examples for Creative & Design, Development & Technical, Enterprise & Communication, and Document Skills
+
 - [./spec](./spec): The Agent Skills specification
 - [./template](./template): Skill template
+
+## Creative & Design
+| Skill | Description |
+|-------|-------------|
+| [algorithmic-art](./skills/algorithmic-art) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration |
+| [brand-guidelines](./skills/brand-guidelines) | Applies Anthropic's official brand colors and typography to artifacts |
+| [canvas-design](./skills/canvas-design) | Create visual art in .png and .pdf documents using design philosophy |
+| [frontend-design](./skills/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality |
+| [theme-factory](./skills/theme-factory) | Toolkit for styling artifacts with 10 pre-set themes or custom on-the-fly generation |
+
+## Expo & React Native
+| Skill | Description |
+|-------|-------------|
+| [building-native-ui](./skills/building-native-ui) | Complete guide for building beautiful apps with Expo Router — styling, components, navigation, animations, and native tabs |
+| [eas](./skills/eas) | Build, submit, and update React Native/Expo apps using EAS (Expo Application Services) |
+| [expo-api-routes](./skills/expo-api-routes) | Guidelines for creating API routes in Expo Router with EAS Hosting |
+| [expo-cicd-workflows](./skills/expo-cicd-workflows) | Write EAS workflow YAML files for Expo CI/CD pipelines and deployment automation |
+| [expo-deployment](./skills/expo-deployment) | Deploying Expo apps to iOS App Store, Android Play Store, web hosting, and API routes |
+| [expo-dev-client](./skills/expo-dev-client) | Build and distribute Expo development clients locally or via TestFlight |
+| [expo-swift-ui](./skills/expo-swift-ui) | Build native iOS interfaces with SwiftUI components through Expo SDK 55's @expo/ui package |
+| [maestro-tests](./skills/maestro-tests) | Write and run Maestro E2E tests for React Native Expo apps |
+| [native-data-fetching](./skills/native-data-fetching) | Implement network requests, API calls, caching strategies, and offline support |
+| [use-dom](./skills/use-dom) | Use Expo DOM components to run web code in a webview on native and as-is on web |
+
+## Backend & Full-Stack
+| Skill | Description |
+|-------|-------------|
+| [convex](./skills/convex) | Build full-stack applications with Convex — real-time queries, mutations, actions, agents, RAG, workflows, and auth |
+| [convex-agents](./skills/convex-agents) | Build AI agents on Convex with persistent chat history, durable workflows, tool calling, streaming, and RAG |
+
+## Desktop & Cross-Platform
+| Skill | Description |
+|-------|-------------|
+| [tauri](./skills/tauri) | Build cross-platform desktop and mobile applications with Tauri v2 |
+
+## Native iOS
+| Skill | Description |
+|-------|-------------|
+| [swiftui-expert-skill](./skills/swiftui-expert-skill) | Write, review, or improve SwiftUI code following best practices for state management, performance, and iOS 26+ Liquid Glass |
+
+## Document Skills
+| Skill | Description |
+|-------|-------------|
+| [docx](./skills/docx) | Create, read, edit, and manipulate Word documents (.docx files) |
+| [pdf](./skills/pdf) | Read, create, merge, split, encrypt, OCR, and manipulate PDF files |
+| [pptx](./skills/pptx) | Create, read, edit, and manipulate PowerPoint presentations (.pptx files) |
+| [xlsx](./skills/xlsx) | Create, read, edit, and manipulate spreadsheet files (.xlsx, .csv, .tsv) |
+
+## Enterprise & Communication
+| Skill | Description |
+|-------|-------------|
+| [doc-coauthoring](./skills/doc-coauthoring) | Structured workflow for co-authoring documentation, proposals, and technical specs |
+
+## Development & Technical
+| Skill | Description |
+|-------|-------------|
+| [skill-creator](./skills/skill-creator) | Guide for creating effective skills that extend Claude's capabilities |
+| [webapp-testing](./skills/webapp-testing) | Test local web applications using Playwright with screenshots and browser logs |
 
 # Try in Claude Code, Claude.ai, and the API
 
